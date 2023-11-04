@@ -36,6 +36,7 @@ namespace GithubActionsLab
                             break;
                         case "5":
                             operation = Power;
+                            pow(x, y);
                             break;
                         case "6":
                             loop = false;
