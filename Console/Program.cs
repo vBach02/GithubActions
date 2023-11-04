@@ -36,7 +36,6 @@ namespace GithubActionsLab
                             break;
                         case "5":
                             operation = Power;
-                            pow(x, y);
                             break;
                         case "6":
                             loop = false;
@@ -85,7 +84,7 @@ namespace GithubActionsLab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
-            throw new NotImplementedException();
+            return pow(double.Parse(x), double.Parse(y);
         }
     }
 
