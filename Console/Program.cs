@@ -1,5 +1,4 @@
 ﻿using System;
-#include <math.h>
 
 namespace GithubActionsLab
 {
@@ -85,7 +84,14 @@ namespace GithubActionsLab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
-            return pow(double.Parse(x), double.Parse(y));
+            double xvar = double.Parse(x);
+            double yvar = double.Parse(y);
+            double answer;
+            for (int i = 0; i < yvar; ++i)
+            {
+                answer = xvar * xvar;
+            }
+                return answer;
         }
     }
 
