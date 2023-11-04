@@ -86,7 +86,7 @@ namespace GithubActionsLab
         {
             double xvar = double.Parse(x);
             double yvar = double.Parse(y);
-            double answer;
+            double answer = 0;
             for (int i = 0; i < yvar; ++i)
             {
                 answer = xvar * xvar;
