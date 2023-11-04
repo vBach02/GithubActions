@@ -31,7 +31,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_ValidBachNguyen()
+        public void Multiply_ValidBachNguyen()
         {
             Assert.AreEqual(3, Program.Add("1", "2"));
             Assert.AreEqual(5, Program.Add("3", "2"));
@@ -39,7 +39,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_InvalidBachNguyen()
+        public void Multiply_InvalidBachNguyen()
         {
             Assert.Throws<FormatException>(() => Program.Add("1", "a"));
             Assert.Throws<FormatException>(() => Program.Add("a", "1"));
@@ -47,7 +47,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_NullBachNguyen()
+        public void Multiply_NullBachNguyen()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
@@ -55,7 +55,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_ValidBachNguyen()
+        public void Divide_ValidBachNguyen()
         {
             Assert.AreEqual(3, Program.Add("1", "2"));
             Assert.AreEqual(5, Program.Add("3", "2"));
@@ -63,7 +63,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_InvalidBachNguyen()
+        public void Divide_InvalidBachNguyen()
         {
             Assert.Throws<FormatException>(() => Program.Add("1", "a"));
             Assert.Throws<FormatException>(() => Program.Add("a", "1"));
@@ -71,7 +71,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_NullBachNguyen()
+        public void Divide_NullBachNguyen()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
@@ -79,7 +79,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_ValidBachNguyen()
+        public void Subtract_ValidBachNguyen()
         {
             Assert.AreEqual(3, Program.Add("1", "2"));
             Assert.AreEqual(5, Program.Add("3", "2"));
@@ -87,7 +87,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_InvalidBachNguyen()
+        public void Subtract_InvalidBachNguyen()
         {
             Assert.Throws<FormatException>(() => Program.Add("1", "a"));
             Assert.Throws<FormatException>(() => Program.Add("a", "1"));
@@ -95,7 +95,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_NullBachNguyen()
+        public void Subtract_NullBachNguyen()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
@@ -103,7 +103,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_ValidBachNguyen()
+        public void Power_ValidBachNguyen()
         {
             Assert.AreEqual(3, Program.Add("1", "2"));
             Assert.AreEqual(5, Program.Add("3", "2"));
@@ -111,7 +111,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_InvalidBachNguyen()
+        public void Power_InvalidBachNguyen()
         {
             Assert.Throws<FormatException>(() => Program.Add("1", "a"));
             Assert.Throws<FormatException>(() => Program.Add("a", "1"));
@@ -119,7 +119,7 @@ namespace GithubActionsLab
         }
 
         [Test]
-        public void Add_NullBachNguyen()
+        public void Power_NullBachNguyen()
         {
             Assert.Throws<ArgumentNullException>(() => Program.Add("1", null));
             Assert.Throws<ArgumentNullException>(() => Program.Add(null, "1"));
